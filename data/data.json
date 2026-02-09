@@ -1,0 +1,72 @@
+[
+	{
+		"id": 1,
+		"name": "Wireless Mouse",
+		"price": 19.99,
+		"description": "A comfortable wireless mouse with ergonomic design.",
+		"category": "Electronics"
+	},
+	{
+		"id": 2,
+		"name": "Bluetooth Headphones",
+		"price": 49.99,
+		"description": "Noise-cancelling over-ear headphones with long battery life.",
+		"category": "Electronics"
+	},
+	{
+		"id": 3,
+		"name": "Stainless Steel Water Bottle",
+		"price": 15.99,
+		"description": "Insulated water bottle keeps drinks cold for 24 hours.",
+		"category": "Home & Kitchen"
+	},
+	{
+		"id": 4,
+		"name": "Yoga Mat",
+		"price": 25.00,
+		"description": "Non-slip yoga mat for all types of exercise.",
+		"category": "Sports"
+	},
+	{
+		"id": 5,
+		"name": "LED Desk Lamp",
+		"price": 29.99,
+		"description": "Adjustable LED desk lamp with touch controls.",
+		"category": "Home & Office"
+	},
+	{
+		"id": 6,
+		"name": "Portable Charger",
+		"price": 22.50,
+		"description": "10000mAh portable power bank for charging devices on the go.",
+		"category": "Electronics"
+	},
+	{
+		"id": 7,
+		"name": "Running Shoes",
+		"price": 59.99,
+		"description": "Lightweight running shoes for men and women.",
+		"category": "Sports"
+	},
+	{
+		"id": 8,
+		"name": "Coffee Maker",
+		"price": 39.99,
+		"description": "Programmable drip coffee maker with auto shut-off.",
+		"category": "Home & Kitchen"
+	},
+	{
+		"id": 9,
+		"name": "Smart Watch",
+		"price": 89.99,
+		"description": "Fitness tracking smart watch with heart rate monitor.",
+		"category": "Electronics"
+	},
+	{
+		"id": 10,
+		"name": "Backpack",
+		"price": 34.99,
+		"description": "Durable backpack with multiple compartments for travel and school.",
+		"category": "Accessories"
+	}
+]
