@@ -2,10 +2,11 @@
   "name": "backenddemo",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon app.js"
+    "start": "nodemon server.js",
+    "debug": "ndb server.js"
   },
   "repository": {
     "type": "git",
@@ -17,12 +18,16 @@
     "url": "https://github.com/Mahmoud-Dayem/backenddemo/issues"
   },
   "homepage": "https://github.com/Mahmoud-Dayem/backenddemo#readme",
-  "devDependencies": {
-    "nodemon": "^3.1.11"
-  },
   "dependencies": {
+    "bcrypt": "^6.0.0",
     "dotenv": "^17.2.4",
     "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.2.1",
+    "ndb": "^1.1.5",
     "slugify": "^1.6.6"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
   }
 }

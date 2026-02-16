@@ -1,17 +1,30 @@
-require('dotenv').config()
-const express = require('express');
-const app = express();
-
-app.get('/', (req, res) => {
-    res.send('Hello World!fds');
-});
-
-const PORT = process.env.PORT
-console.log(PORT);
-
-app.listen(PORT, () => {
-    console.log(`Server running at http://localhost:${PORT}`);
-});
+ const express = require('express');
+ const app = express();
+ 
+const tourRouter = require('./routes/tourRoutes')
+const userRouter = require('./routes/userRoutes')
+ app.use(express.json()); //middleware
+ app.use('/api/v1/tours', tourRouter)
+ app.use('/api/v1/users', userRouter)
 
 
-module.exports = app;
+ app.use((req,res)=>{
+    console.log('sorry page not found 🙏🙏')
+    res.status(404).json({
+        status:"failed",
+        message:"Sorry page not found 🤣😊😊😂🤣"
+    })
+ })
+
+ app.use((error,req,res,next)=>{
+    console.log('Error middleware called 🌋🌋🌋🌋🌋🌋')
+    
+    next();
+
+
+
+ })
+ module.exports = app
+ 
+ 
+
